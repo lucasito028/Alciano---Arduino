@@ -18,10 +18,14 @@ void loop() {
 
   if(valor == 1){
     valor = digitalRead(btn);
-    tone(1, 40, 3000);
-    delay(200);
+    tone(1, 40, 100);
+    delay(1000);
     tone(1, 200, 100);
-    delay(200);
+    delay(1000);
+    tone(1, 100, 100);
+    delay(1000);
+    tone(1, 3000, 100);
+    delay(1000);
     digitalWrite(led, OUTPUT);
   }else{
       valor = digitalRead(btn);
